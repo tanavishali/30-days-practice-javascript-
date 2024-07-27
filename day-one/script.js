@@ -72,3 +72,26 @@ if (
 }
 */
 // 6:Write a program that classifies a person's age group.
+/*
+let ageClassifies = Number(prompt("enter your age"));
+console.log(ageClassifies);
+if (ageClassifies < 18) {
+  console.log("child");
+} else if (ageClassifies >= 13 && ageClassifies < 20) {
+  console.log("Teenager");
+} else if (ageClassifies >= 20 && ageClassifies < 60) {
+  console.log("Adult");
+} else {
+  console.log("Senior");
+}
+*/
+//7: Write a program that checks if a number is within a specified range (e.g., 1 to 100).
+/*
+let number = prompt("Enter a number:");
+if (number >= 1 && number <= 100) {
+  console.log("The number is within the range.");
+} else {
+  console.log("The number is outside the range.");
+}
+
+*/
