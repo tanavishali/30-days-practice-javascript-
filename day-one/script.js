@@ -95,3 +95,44 @@ if (number >= 1 && number <= 100) {
 }
 
 */
+// 7:Write a program that checks if a day is a weekday or weekend.
+/*
+let day = prompt("Enter a day of the week:").toLowerCase();
+if (day === "saturday" || day === "sunday") {
+  console.log("weekend");
+} else {
+  console.log("weekday");
+}
+*/
+// 9:Write a program that checks the weather based on temperature.
+/*
+let temperature = Number(prompt("Enter temp"));
+if (temperature > 30) {
+  console.log("It's hot outside.");
+} else if (temperature >= 20 && temperature <= 30) {
+  console.log("The weather is pleasant.");
+} else {
+  console.log("It's cold outside.");
+}
+*/
+//10: Write a program that performs a basic arithmetic operation (+, -, *, /) based on user input.
+/*
+let num1 = Number(prompt("number one"));
+let num2 = Number(prompt("number two"));
+let op = prompt("number two");
+if (op === "+") {
+  let sum = num1 + num2;
+  console.log(sum);
+} else if (op === "-") {
+  let sub = num1 - num2;
+  console.log(sub);
+} else if (op === "*") {
+  let mul = num1 * num2;
+  console.log(mul);
+} else if (op === "/") {
+  let devi = num1 / num2;
+  console.log(devi);
+} else {
+  console.log("invalid input!");
+}
+*/
