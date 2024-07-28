@@ -136,3 +136,18 @@ if (op === "+") {
   console.log("invalid input!");
 }
 */
+// date and time and there methode
+/*
+let myDate = new Date();
+console.log(myDate); //Sat Jul 27 2024 12:59:21 GMT+0500 (Pakistan Standard Time)
+console.log(myDate.toString()); //Sat Jul 27 2024 12:59:33 GMT+0500 (Pakistan Standard Time)
+console.log(myDate.toLocaleString()); //27/07/2024, 12:59:52
+console.log(myDate.toDateString()); //Sat Jul 27 2024
+console.log(myDate.toISOString()); //2024-07-27T08:04:51.501Z
+
+console.log(myDate.toLocaleDateString()); //27/07/2024
+*/
+// let createddate = new Date(2023, 2, 12).toDateString();
+// let createddate = new Date(2023, 2, 12).toString();
+// let createddate = new Date("2000,02,22").getDate();
+// console.log(createddate);
