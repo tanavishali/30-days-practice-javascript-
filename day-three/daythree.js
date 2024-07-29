@@ -84,3 +84,61 @@ switch (numberWeek) {
     break;
 }
 */
+// 6:Write a program that calculates the simple interest based on principal, rate, and time.
+/*
+let principal = Number(prompt("Enter the principal amount:"));
+let rate = Number(prompt("Enter the rate of interest:"));
+let time = Number(prompt("Enter the time in years:"));
+
+let simpleInterest = (principal * rate * time) / 100;
+console.log("Simple Interest: " + simpleInterest);
+*/
+// 7:Write a program that checks if a number is a multiple of both 3 and 7.
+/*
+let number = parseInt(prompt("Enter a number:"));
+
+if (number % 3 === 0 && number % 7 === 0) {
+  console.log(number + " is a multiple of both 3 and 7.");
+} else {
+  console.log(number + " is not a multiple of both 3 and 7.");
+}
+*/
+// 9:Write a program that checks if a character is in uppercase or lowercase.
+/*
+let char = prompt("Enter a character:");
+
+if (char >= "A" && char <= "Z") {
+  console.log(char + " is an uppercase letter.");
+} else if (char >= "a" && char <= "z") {
+  console.log(char + " is a lowercase letter.");
+} else {
+  console.log(char + " is not a letter.");
+}
+*/
+// 10:Write a program that performs a basic arithmetic operation (+, -, *, /) using switch case.
+/*
+let num1 = parseFloat(prompt("Enter the first number:"));
+let num2 = parseFloat(prompt("Enter the second number:"));
+let operation = prompt("Enter an operation (+, -, *, /):");
+
+switch (operation) {
+  case "+":
+    console.log("Result: " + (num1 + num2));
+    break;
+  case "-":
+    console.log("Result: " + (num1 - num2));
+    break;
+  case "*":
+    console.log("Result: " + num1 * num2);
+    break;
+  case "/":
+    if (num2 !== 0) {
+      console.log("Result: " + num1 / num2);
+    } else {
+      console.log("Cannot divide by zero.");
+    }
+    break;
+  default:
+    console.log("Invalid operation.");
+}
+*/
