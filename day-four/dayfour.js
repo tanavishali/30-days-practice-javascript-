@@ -41,3 +41,35 @@ for (let i = number.length - 1; i >= 0; i--) {
 console.log("Reversed number is " + reversedNumber);
 */
 // 9:Write a program that calculates the sum of even numbers from 1 to N.
+/*
+let num = Number(prompt("num"));
+let sumOfEvenNum = 0;
+for (let i = 1; i <= num; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+    sumOfEvenNum = sumOfEvenNum + i;
+    // console.log(sumOfEvenNum);
+  }
+}
+console.log(`sum of even numbers is :${sumOfEvenNum} `);
+*/
+// 10:Write a program that counts the number of digits in a number.
+/*
+let num = prompt("num");
+let count = 0;
+console.log(num.length);
+for (let i = 0; i < num.length; i++) {
+  count++;
+  console.log(count);
+}
+// console.log(count);
+*/
+// 7:Write a program that calculates the sum of digits of a number.
+
+let number = prompt("Enter a number:");
+let sum = 0;
+for (let i = 0; i < number.length; i++) {
+  console.log(number[i]);
+  sum += parseInt(number[i]);
+}
+console.log("Sum of digits is " + sum);
