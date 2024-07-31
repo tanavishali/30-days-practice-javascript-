@@ -65,7 +65,7 @@ for (let i = 0; i < num.length; i++) {
 // console.log(count);
 */
 // 7:Write a program that calculates the sum of digits of a number.
-
+/*
 let number = prompt("Enter a number:");
 let sum = 0;
 for (let i = 0; i < number.length; i++) {
@@ -73,3 +73,4 @@ for (let i = 0; i < number.length; i++) {
   sum += parseInt(number[i]);
 }
 console.log("Sum of digits is " + sum);
+*/
